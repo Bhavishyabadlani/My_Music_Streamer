@@ -1,0 +1,69 @@
+.border{
+    border: 2px solid red;
+    margin: 3px;
+}
+
+.flex{
+    display: flex;
+}
+
+.justify-centre{
+    justify-content: center;
+}
+
+.items-centre{
+    align-items: center;
+}
+
+.bg-black{
+    background-color: black;
+    color: white;
+}
+
+.invert{
+    filter: invert(1);
+}
+
+.bg-grey{
+    background-color: hsl(0deg 0% 7.06%);
+}
+
+.rounded{
+    border-radius: 7px;
+}
+
+.m-1{
+margin: 5px;
+
+}
+
+.p-1{
+    padding: 10px;
+}
+
+/* Works in Webkit-based browsers (Chrome, Edge, Safari, Opera) */
+::-webkit-scrollbar {
+    width: 8px;            /* Width of the scrollbar */
+    height: 8px;           /* Height for horizontal scrollbars */
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #1e1e1e;   /* Dark track background */
+    border-radius: 10px;   
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #555;      /* Grey thumb */
+    border-radius: 10px;   
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #888;      /* Lighter grey on hover */
+  }
+  
+  /* Firefox specific */
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: #555 #1e1e1e; /* thumb color and track color */
+  }
+  
